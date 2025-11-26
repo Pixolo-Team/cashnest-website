@@ -1,0 +1,18 @@
+---
+export function getStaticPaths() {
+  return [
+    { params: { title: "blog-consumption" } }, // temporary path
+  ];
+}
+
+// OTHERS //
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout>
+  <img
+    src="/images/blog-consumption.jpg"
+    alt="Blogs Consumption Page"
+    class="w-full"
+  />
+</Layout>
